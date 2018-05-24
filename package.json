@@ -16,7 +16,7 @@
     "hexo-generator-index": "^0.2.0",
     "hexo-generator-sitemap": "^1.2.0",
     "hexo-generator-tag": "^0.2.0",
-    "hexo-renderer-ejs": "^0.3.0",
+    "hexo-helper-live2d": "^3.0.3",
     "hexo-renderer-marked": "^0.3.0",
     "hexo-renderer-sass": "^0.3.2",
     "hexo-renderer-stylus": "^0.3.1",
@@ -25,6 +25,7 @@
     "lunr": "github:mamboer/lunr.js",
     "moment": "^2.22.1",
     "node-sass": "^4.9.0",
+    "npm-check-updates": "^2.14.2",
     "object-assign": "^4.1.1"
   }
 }

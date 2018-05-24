@@ -1,0 +1,8 @@
+{
+	"version":"Sample 1.0.0",
+	"model":"popuko.moc",
+	"textures":[
+		"popuko.2048/texture_00.png"
+	],
+	"physics":"popuko.physics.json"
+}

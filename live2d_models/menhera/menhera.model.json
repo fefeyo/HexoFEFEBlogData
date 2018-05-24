@@ -1,0 +1,8 @@
+{
+	"type": "Live2D Model Setting",
+	"name": "menhera",
+	"model": "menhera.moc",
+	"textures": [
+		"menhera.1024/texture_00.png"
+	]
+}
