@@ -6,17 +6,18 @@
 title: title
 subtitle: subtitle
 subtitle_desc: subtitle_desc
-description: 説明
-keywords: minfive, minfive blog, node.js, javascript
+description: ふぇふぇのなんか書く
+keywords:
 language: ja
 timezone:
 introduction: introduction
 favicon_ico: http://www.iconj.com/ico/v/8/v89gakyvrp.ico
 logo: http://oo12ugek5.bkt.clouddn.com/images/logo-text-white.png
 default_cover: http://oo12ugek5.bkt.clouddn.com/images/default_cover.png
-header_cover: https://shop.r10s.jp/book/cabinet/2552/4540774382552.jpg
-error_page_bg: http://oo12ugek5.bkt.clouddn.com/blog/images/dogs.jpg
-loader_img: http://oo12ugek5.bkt.clouddn.com/blog/images/loader.gif
+header_cover: https://user-images.githubusercontent.com/37997608/40461952-b2ba5b3c-5f48-11e8-9cdf-674828b7aa80.jpg
+error_page_bg: http://image.space.rakuten.co.jp/d/strg/ctrl/9/9890276031945a2880e4c4de00d1d90fd522de4d.14.2.9.2.jpeg
+# loader_img: https://user-images.githubusercontent.com/37997608/40461877-5658e610-5f48-11e8-9374-da7deb88c682.gif
+loading_img: http://oo12ugek5.bkt.clouddn.com/blog/images/loader.gif
 avatar: https://pbs.twimg.com/profile_images/958114260772577281/Oj7Dmf3E_400x400.jpg
 author:
   name: ふぇふぇ
@@ -28,8 +29,8 @@ about:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://fefeyo.github.io/HexoFEFEBlog
-root: /HexoFEFEBlog/
+url: https://fefeyo.github.io
+root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -162,8 +163,8 @@ hfc_favicons:
 
 menu:
   home: /
-  works: /works
   archive: /archives
+  works: /works
   about: /about
 
 # Feed Atom
