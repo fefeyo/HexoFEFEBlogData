@@ -23,6 +23,20 @@
                 </div>
             </div>
 
+            <div class="footer-top__item">
+                <h3 class="item__title">{{ __('aside.categorie') }}</h3>
+                <div class="categories__content">
+                  {{ list_categories({ order: -1, class: 'block', show_count: false }) }}
+                </div>
+            </div>
+
+            <div class="footer-top__item">
+                <h3 class="item__title">{{ __('aside.tag') }}</h3>
+                <div class="tags__content">
+                  {{ tags({ order: -1 }) }}
+                </div>
+            </div>
+
             {% set img = get_setting('qrcode', 'avatar') %}
             {% if img %}
                 <div class="footer-top__item footer__image">
