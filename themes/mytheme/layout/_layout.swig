@@ -37,6 +37,8 @@
         <script type="text/javascript" src="/js/layout/back-top.js"></script>
         <script type="text/javascript" src="/js/layout/post.js"></script>
     <!-- endbuild -->
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/moment.js/2.8.2/moment.min.js"></script>
+
 
     {% block pagejs %}
     {% endblock %}

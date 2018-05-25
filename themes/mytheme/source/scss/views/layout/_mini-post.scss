@@ -133,6 +133,11 @@ body {
     }
 }
 
+.min-date__desc {
+  text-align: right;
+  margin: 0;
+}
+
 .min-article__desc {
     // margin: 10px 0;
     overflow: hidden;
@@ -145,6 +150,7 @@ body {
 }
 
 .min-article__tags {
+  text-align: right;
     & > i {
         font-size: 24px;
         vertical-align: middle;

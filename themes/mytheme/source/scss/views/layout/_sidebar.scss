@@ -115,6 +115,9 @@ $title-falg-w: 4px      !default;
         .block-list-link {
             @include link($main-color);
             color: $title-fc;
+            &:hover {
+              color: #727d83;
+            }
         }
 
         .block-list-count {
@@ -167,6 +170,7 @@ $title-falg-w: 4px      !default;
     .latest-post-item {
         list-style: none;
         width: 100%;
+        transition: all 300ms 0s ease;
 
         & + .latest-post-item {
             margin-top: 10px;
@@ -178,12 +182,10 @@ $title-falg-w: 4px      !default;
             width: 100%;
             text-decoration: none;
             color: $title-fc;
+        }
 
-            &:hover {
-                .item__title {
-                    color: $main-color;
-                }
-            }
+        &:hover {
+          background-color: rgba(245, 245, 245, .8)
         }
 
         .item__cover {

@@ -1,10 +1,8 @@
 ---
-title: こんにちわ世界!
-subtitle: Hello, World!
+title: ブログ始めました
+subtitle: 今日から始まるブログ生活
 cover: https://i.ytimg.com/vi/RNPXeChgHVU/maxresdefault.jpg
-author:
-  nick: ふぇふぇ
-  link: https://twitter.com/nigafefe
+date: 2018-05-25 12:00:00
 tags:
 - "津島善子"
 - "Aqours"

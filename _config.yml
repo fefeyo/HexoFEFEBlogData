@@ -26,6 +26,8 @@ about:
   info: infomation
   address: 東京都
   email: imanity.fefe@gmail.com
+  twitter1: nigafefe
+  twitter2: BukkakeFefe
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -191,3 +193,6 @@ live2d:
     height: 300
   mobile:
     show: false
+
+# Busuanzi
+busuanzi: true

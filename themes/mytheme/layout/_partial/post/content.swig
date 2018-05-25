@@ -8,15 +8,6 @@
 
         <div class="post__mark">
             <div class="mark__block">
-                <i class="mark__icon iconfont icon-write"></i>
-                <ul class="mark__list clearfix">
-                    <li class="mark__item">
-                        <a href="{{ url_for(page.author.link || '') }}">{{ page.author.nick|default(get_setting(author.name)) }}</a>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="mark__block">
                 <i class="mark__icon iconfont icon-time"></i>
                 <ul class="mark__list clearfix">
                     <li class="mark__item"><span>{{ date(page.date) }}</span></li>
@@ -38,7 +29,7 @@
             <div class="mark__block">
                 <i class="mark__icon iconfont icon-eye"></i>
                 <ul class="mark__list clearfix">
-                    <li id="busuanzi_container_page_pv" class="mark__item"><span id="busuanzi_value_page_pv"></span>{{ __('other.bout') }}</li>
+                    <li id="busuanzi_container_page_pv" class="mark__item">{{ __('other.bout') }}：<span id="busuanzi_value_page_pv"></span></li>
                 </ul>
             </div>
             {% endif %}

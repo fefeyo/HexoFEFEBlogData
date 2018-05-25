@@ -1,5 +1,8 @@
 ---
 title: second_world
-date: 2018-05-24 11:06:34
+subtitle: 今日から始まるブログ生活
+cover: https://i.ytimg.com/vi/RNPXeChgHVU/maxresdefault.jpg
+date: 2018-05-25 12:00:00
 tags:
+category: アニメ
 ---

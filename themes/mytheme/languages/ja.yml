@@ -7,7 +7,7 @@ menu:
   tags: Tags
 
 aside:
-  introduction: イントロダクション
+  introduction: 自己紹介
   categorie: カテゴリー
   tag: タグ
   latest_post: 最新記事
@@ -21,7 +21,7 @@ footer:
 paginator:
   next: 次へ
   prev: 戻る
-  
+
 other:
-  bout: bout
+  bout: 閲覧数
   year: Year

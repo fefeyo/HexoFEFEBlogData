@@ -6,15 +6,18 @@
             <div class="footer-top__item footer-top__item--2">
                 <h3 class="item__title">{{ __('footer.about') }}</h3>
                 <div class="item__content">
-                    <p class="item__text">{{ about.info }}</p>
                     <ul class="footer__contact-info">
                         <li class="contact-info__item">
                             <i class="iconfont icon-address"></i>
                             <span>{{ about.address }}</span>
                         </li>
                         <li class="contact-info__item">
-                            <i class="iconfont icon-email2"></i>
-                            <span>{{ about.email }}</span>
+                            <i class="fab fa-twitter"></i>
+                            メイン：<a href="https://twitter.com/{{ about.twitter1 }}">ふぇふぇ &#64;{{ about.twitter1 }}</a>
+                        </li>
+                        <li class="contact-info__item">
+                            <i class="fab fa-twitter"></i>
+                            ゲーム：<a href="https://twitter.com/{{ about.twitter2 }}">✝だてんしふぇふぇ✝ &#64;{{ about.twitter2 }}</a>
                         </li>
                     </ul>
                 </div>
