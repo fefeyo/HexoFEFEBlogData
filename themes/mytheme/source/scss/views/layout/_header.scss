@@ -3,6 +3,20 @@ $nav-height: 50px       !default;
 
 body {
     @media screen and (max-width: $mq-mobile) {
+        .page__navbar {
+            background: linear-gradient(to right, $main-color 35%, $main-color--hover 100%);
+        }
+
+        .nav__list {
+            background: linear-gradient(to right, $main-color 35%, $main-color--hover 100%);
+        }
+
+        .page__info {
+            .info__hr {
+                width: 90%;
+            }
+        }
+
         .page__header--small {
             .nav__list {
                 background: $main-color;
@@ -119,6 +133,7 @@ body {
     margin: $pad 0;
     text-align: center;
     transition: margin $transition;
+    padding: 10px;
 
     & > img {
         display: block;
@@ -170,7 +185,7 @@ body {
 
     .info__hr {
         height: 2px;
-        width: 160px;
+        width: 450px;
         border: 0;
         color: $main-color;
         background: $main-color;

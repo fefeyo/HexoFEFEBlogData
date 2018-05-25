@@ -3,18 +3,18 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: title
+title: 趣味に全てを賭けるブログ
 subtitle: 趣味に全てを賭けるブログ
-subtitle_desc: ふぇふぇが趣味に没頭している様をつらつらと書くよ
-description: 都内でエンジニアをしているオタク<br />スプラトゥーンが大好き
-keywords:
+subtitle_desc: ふぇふぇが趣味に没頭している様を自由気ままに記事にするよ
+description: 都内でアプリ開発したりライブ行ったりイベント行ったりしてるオタクエンジニア
+keywords: 趣味, ブログ, アニメ, ゲーム, Aqours, ラブライブ！, Kotlin, エンジニア, オタク, スプラトゥーン2, Android
 language: ja
 timezone:
 introduction: introduction
 favicon_ico: http://www.iconj.com/ico/v/8/v89gakyvrp.ico
 logo: https://user-images.githubusercontent.com/37997608/40533560-1cbf79b8-603e-11e8-85a4-e24f424de1ef.png
 default_cover: https://user-images.githubusercontent.com/7947464/40529599-9b5cfc0e-6030-11e8-9073-5eb295787ca7.jpg
-header_cover: https://user-images.githubusercontent.com/37997608/40461952-b2ba5b3c-5f48-11e8-9cdf-674828b7aa80.jpg
+header_cover: https://user-images.githubusercontent.com/7947464/40552557-ff5f0a9a-607a-11e8-8e56-2055206ee7e8.JPG
 error_page_bg: https://user-images.githubusercontent.com/7947464/40529565-7383d95a-6030-11e8-8327-6a0541a54f96.jpg
 loading_img: https://user-images.githubusercontent.com/37997608/40530133-8c4b9c64-6032-11e8-9016-4387d0c5a15e.gif
 avatar: https://pbs.twimg.com/profile_images/958114260772577281/Oj7Dmf3E_400x400.jpg
@@ -165,7 +165,6 @@ hfc_favicons:
 menu:
   home: /
   archive: /archives
-  works: /works
   about: /about
 
 # Feed Atom
