@@ -1,0 +1,27 @@
+menu:
+  home: Home
+  article: Articles
+  works: Works
+  about: About
+  archive: Archive
+  tags: Tags
+
+aside:
+  introduction: イントロダクション
+  categorie: カテゴリー
+  tag: タグ
+  latest_post: 最新記事
+  friend_links: Friend Links
+
+footer:
+  about: About
+  friend_links: Friend Links
+  build_tools: Build Tools
+
+paginator:
+  next: 次へ
+  prev: 戻る
+  
+other:
+  bout: bout
+  year: Year
