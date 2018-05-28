@@ -41,7 +41,6 @@
             {% if img %}
                 <div class="footer-top__item footer__image">
                     <img src="{{ img }}" alt="logo" title="{{ get_setting('title') }}"><br />
-                    illustrated by たけのこ
                 </div>
             {% endif %}
 
