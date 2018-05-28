@@ -20,11 +20,12 @@ body {
         display: block;
         width: auto;
         max-width: 100%;
+        margin: 0 auto;
     }
 }
 
 .post__info {
-    margin: $pad * 4 0;
+    margin: 30px 0;
 }
 
 .post__title {
@@ -80,6 +81,19 @@ body {
 
 .post__content {
     @include post();
+
+    p {
+        font-size: 16px;
+    }
+
+    li {
+        font-size: 16px;
+    }
+
+    img {
+        margin: 0 10px;
+        margin-bottom: 0 !important;
+    }
 
     .post-announce {
         margin: 2em 0;

@@ -6,7 +6,7 @@
 title: 趣味に全てを賭けるブログ
 subtitle: 趣味に全てを賭けるブログ
 subtitle_desc: ふぇふぇが趣味に没頭している様を自由気ままに記事にするよ
-description: 都内でアプリ開発したりライブ行ったりイベント行ったりしてるオタクエンジニア
+description: 都内でアプリ開発したりライブ行ったりイベント行ったりしてるラブライバーエンジニア<br />面白いものを作るのが大好き
 keywords: 趣味, ブログ, アニメ, ゲーム, Aqours, ラブライブ！, Kotlin, エンジニア, オタク, スプラトゥーン2, Android
 language: ja
 timezone:
@@ -165,7 +165,6 @@ hfc_favicons:
 menu:
   home: /
   archive: /archives
-  about: /about
 
 # Feed Atom
 feed:
