@@ -23,7 +23,7 @@
         <h3 class="block__title">{{ __('aside.categorie') }}</h3>
         {{ list_categories({ order: -1, class: 'block' }) }}
     </div>
-    
+
     <div class="sidebar__block">
         <h3 class="block__title">{{ __('aside.latest_post') }}</h3>
         {{ latest_post(4) }}
@@ -34,14 +34,14 @@
         {{ tags({ order: -1 }) }}
     </div>
 
-    <!-- <div class="sidebar__block">
-        <h3 class="block__title">{{ __('aside.friend_links') }}</h3>
-        <ul class="block-list">
-            {% for item in site.data.link %}
-                <li class="block-list-item">
-                    <a class="block-list-link" href="{{ item.link }}" title="{{ item.desc }}" target="_blank">{{ item.name }}</a>
-                </li>
-            {% endfor %}
-        </ul>
-    </div> -->
+    <div class="sidebar__block">
+        <h3 class="block__title">メインアカウント</h3>
+        <a class="twitter-timeline" data-height="300" data-chrome="noheader" data-theme="dark" href="https://twitter.com/nigafefe?ref_src=twsrc%5Etfw">Tweets by BukkakeFefe</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+
+    <div class="sidebar__block">
+        <h3 class="block__title">ゲームアカウント</h3>
+        <a class="twitter-timeline" data-height="300" data-chrome="noheader" data-theme="dark" href="https://twitter.com/BukkakeFefe?ref_src=twsrc%5Etfw">Tweets by BukkakeFefe</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+
 </aside>
